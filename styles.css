@@ -1,0 +1,35 @@
+.row {
+    display: flex;
+}
+
+.board-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#board {
+    width: 60%;
+    display: flex;
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+header {
+    height: 50px;
+    background-color: azure;
+}
+
+.alive {
+    background-color: blue;
+}
+
+#restart,
+#pause {
+    display: none;
+}
